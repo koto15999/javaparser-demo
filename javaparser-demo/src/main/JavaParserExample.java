@@ -14,8 +14,7 @@ public class JavaParserExample {
 
     public static void main(String[] args) throws Exception {
         // 解析対象のJavaファイルのパスを指定してください
-        File file = new File("C:/pleiades/2023-12/workspace/javaparser-demo/src/main/Sample.java");
-
+        File file = new File("C:/Users/Ｋott0/git/javaparser-demo/javaparser-demo/src\\main/Sample.java");
         // JavaParserのインスタンスを作成
         JavaParser parser = new JavaParser();
 
